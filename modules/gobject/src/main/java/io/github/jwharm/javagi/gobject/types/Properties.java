@@ -166,10 +166,11 @@ public class Properties {
                     names.toArray(new String[0]),
                     values.toArray(new Value[0])
             );
-            return gobject;
-        } finally {
-            typeClass.unref();
+
             values.forEach(Value::unset);
+            typeClass.unref();
+
+            return gobject;
         }
     }
 
