@@ -25,6 +25,7 @@ include 'javascriptcore'
 include 'pango'
 include 'pangocairo'
 include 'soup'
+include 'spice-client-glib'
 include 'webkit'
 include 'webkitwebprocessextension'
 
