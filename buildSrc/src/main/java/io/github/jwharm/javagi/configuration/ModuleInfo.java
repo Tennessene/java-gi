@@ -53,6 +53,7 @@ public final class ModuleInfo {
             entry("gtk",                       new Module("GTK", "org.gnome.gtk", "https://docs.gtk.org/gtk4/", "GTK is a multi-platform toolkit for creating graphical user interfaces")),
             entry("gtksource",                 new Module("GtkSourceView", "org.gnome.gtksourceview", "https://gnome.pages.gitlab.gnome.org/gtksourceview/gtksourceview5/", "A text editor widget for code editing")),
             entry("adw",                       new Module("LibAdwaita", "org.gnome.adw", "https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/", "Building blocks for modern GNOME applications")),
+            entry("mks",                       new Module("Mks", "org.gnome.mks", "https://gnome.pages.gitlab.gnome.org/libmks/libmks1/", "Mouse, Keyboard, and Screen to QEMU")),
             entry("soup",                      new Module("LibSoup", "org.gnome.soup", "https://libsoup.org/libsoup-3.0/", "An HTTP client/server library for GNOME")),
             entry("javascriptcore",            new Module("JavaScriptCore", "org.gnome.webkit.jsc", "https://webkitgtk.org/reference/jsc-glib/stable/", "The JavaScript engine used in WebKit")),
             entry("webkit",                    new Module("WebKitGTK", "org.gnome.webkit", "https://webkitgtk.org/reference/webkit2gtk/stable/", "WebKitGTK is a full-featured port of the WebKit rendering engine")),

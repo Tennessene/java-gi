@@ -1,0 +1,14 @@
+plugins {
+    id 'java-gi.library-conventions'
+}
+
+dependencies {
+    // Add dependencies on other modules here.
+    // The dependencies can be found in the GIR file (search for <include> tags).
+    api project(':gio')
+    api project(':gtk')
+}
+
+generateSources.configure {
+    namespace = 'Mks'
+}
